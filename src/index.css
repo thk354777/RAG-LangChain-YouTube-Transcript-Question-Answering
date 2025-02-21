@@ -1,0 +1,76 @@
+/* Set body styles */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1c2833; /* Dark background */
+  color: white; /* White text color */
+}
+
+/* Set code font style */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Style for form inputs */
+input {
+  color: white;
+  background-color: #333; /* Dark input background */
+  border: 1px solid #444;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkblue;
+}
+
+/* Style for main container */
+.container {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Style for the response section */
+.response-container {
+  margin-top: 20px;
+  padding: 10px;
+  background: #1c2833; /* Same as body background */
+  color: white; /* White text color inside the response container */
+  border-radius: 5px;
+  border: 1px solid #1c2833; /* Same as body background */
+}
+
+/* Style for the response content */
+.response-container p {
+  color: white; /* Ensure the text inside the response is white */
+}
+
+/* For the references section */
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  color: white; /* White color for reference list items */
+}
+
+.reference-item {
+  background-color: #254461;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
