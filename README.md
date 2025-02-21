@@ -2,7 +2,7 @@
 
 This application demonstrates how to use LangChain in a Retrieval-Augmented Generation (RAG) framework to process YouTube video transcripts, store them in a FAISS vector database, and query them using a locally hosted LLM. The app uses **React** as the frontend for a simple and interactive user interface.
 
-![alt text](langchain_llm_url (2).png "Code GPT Screenshot")
+![alt text](langchain_llm_url.png "Code GPT Screenshot")
 
 ## Table of Contents
 
